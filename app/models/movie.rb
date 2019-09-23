@@ -4,7 +4,7 @@ class Movie < ApplicationRecord
   include HTTParty
 
   default_options.update(verify: false)
-  default_params api_key: Rails.application.credentials.api_key.to_s
+  default_params api_key: "9fd00f8c33944611214999bca68e17da"
   format :json
 
   def self.now_playing(page)

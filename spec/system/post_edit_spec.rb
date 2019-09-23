@@ -4,13 +4,13 @@ describe '投稿編集', type: :system do
   let!(:user){ create(:user) }
   let!(:cinema){ create(:cinema) }
   let!(:post){ create(:post, cinema: cinema, user: user) }
-  
+
   before do
     sign_in_as user
     visit cinema_page_path(cinema.movie_id)
     click_link '編集'
   end
-  
+
   describe '正常系' do
     context '正しいcontentを入力した場合' do
       it '編集できる' do

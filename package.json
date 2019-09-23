@@ -1,5 +1,5 @@
 {
-  "name": "environment",
+  "name": "myapp",
   "private": true,
   "dependencies": {}
 }
