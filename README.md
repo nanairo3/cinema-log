@@ -1,16 +1,18 @@
 # CinemaLog
 
 ## 概要
-映画の共有SNSです。 
+映画の共有SNSです。
 
 ## heroku URL
-` https://thawing-tor-44785.herokuapp.com`
+```url
+https://cinema-log.herokuapp.com/
+```
 
 ## 機能
 - ユーザー管理機能
   - 新規ユーザー登録
   - ログイン（簡単ログイン機能を含む）
-  - プロフィール編集
+  - プロフィール編集(S3 アップロード)
   - プロフィール参照
   - ユーザー一覧表示
 - 投稿管理機能
@@ -24,7 +26,7 @@
 - フレームワーク
   - Ruby on Rails（5.2.3）
 - DB
-  - PostgreSQL	
+  - PostgreSQL
 - フロントエンド
   - Erb
   - Bootstrap4
@@ -33,3 +35,7 @@
 - 使用した主なgem
   - devise（ユーザー認証）
   - RSpec（単体テスト・結合テスト）
+
+## 挑戦したこと
+- Docker
+- circleCI
