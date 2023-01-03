@@ -76,4 +76,4 @@ end
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
 # API Useing
-gem 'httparty', '0.17.0'
+gem 'httparty', '0.21.0'
